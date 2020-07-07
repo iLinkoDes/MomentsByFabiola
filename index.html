@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/font-awesome.css" rel="stylesheet"> 
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <title>Moments By Fabiola</title>
+
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+      });
+    </script>
+
+    <link rel="stylesheet" href="css/style.css" >
+
+  </head>
+  <body >
+    
+    <!-- Header -->    
+    <div id="Header" style="min-height: 140px; " class="d-flex align-content-center text-center flex-wrap ">
+
+      <div class="container-fluid" style="width: 90%">
+
+        <div class="row align-items-center">
+
+          <div class="offset-1 col-3" style="left: -50px;">
+            <a href="index.html"><img id="momentsByLogo" src="media/MomentsBy.png" style=""></a>
+          </div>
+
+          <div class="col-4 offset-1">
+            <div class="input-group flex-nowrap">
+              <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" style="border-color: #33bec2; border-radius: 20px;">
+              <div class="input-group-append">
+                <button class="btn" style="left:-40px;" id="addon-wrapping"><i class="fa fa-search fa-x2"></i></button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2 d-none d-xl-block d-lg-block d-md-none">
+            <a href="index.html" style="text-decoration: none; color:black;"><p class="modelicaBold">Inicio</p></a>
+          </div>
+
+          <div class="col-1">
+            <a href="#"><i class="fa fa-shopping-cart fa-2x" style="text-decoration: none; color:black;"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Navbar -->
+    <div id="Navbar" class="container-fluid nav-bar-custom" style="">
+     <ul id="nav-main" class="nav justify-content-center">
+
+        <li class="nav-item-lol">
+          <a id="lol" class="nav-link" href="#">Office</a>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link" href="#">Moms & babies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Party</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">School</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Wedding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notebooks</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " data-toggle="dropdown" href="#">Toys & games</a>
+          <div class="dropdown-menu">
+            <a href="toys-textiles.html" class="dropdown-item">Textile toys</a>
+            <a href="#" class="dropdown-item">Vinyl toys</a>
+            <a href="#" class="dropdown-item">Board games</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dummies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Licencias</a>
+        </li>
+      </ul>
+        
+    </div>
+
+      
+    <div id="comparte" class="container d-flex align-content-center text-center flex-wrap " style="min-height: 120px;">
+      <div class="row align-items-center">
+        <p id="comparte-texto" style="font-size: 40px; color:#35bfc2;" class="modelicaBold col-12 offset-xl-7 offset-lg-5 offset-md-2">Comparte tus momentos</p>
+      </div>
+    </div>
+    
+    
+    <!-- Seccion Features -->
+    <div style="min-height: 500px; " class="no-padding">
+      <div class="container-fluid px-0">
+        <div class="row" style="background-color: #e8aecf; width: 100.58%; ">
+          <div class="offset-1 col-5" style="background-image: url(media/pattern-pink.png);">
+            <div class="row" style="margin: 8% 0 3% 0">
+              <div id="text-pink" class="offset-2 col-10 modelicaBold" style="color: white;">
+                <p>Para una mamá única,<br> un regalo único.</p>
+              </div>
+              <div  id="subtext-pink" class="offset-2 col-9 modelicaBold" style="color: white;" >
+                <p>Disfruta de nuestra seleccion especial <br> de regalos para las mamas</p>
+              </div>
+              <div class="offset-2 col-3" >
+                <a id="feature-link-pink" href="index.html" style="">Ir al listado ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-5" style="background-image: url(media/feature-pink.png);" style="background-repeat: no-repeat; width: 150%; height: 150%; max-width: auto; overflow: hidden;">
+            
+          </div>
+        </div>
+        
+        <div class="row inter" style="margin: 15px 0 15px 0; display: flex; flex-wrap: wrap;">
+          <div class="offset-2 col-2 text-center left" style=" ">
+            <p class="modelicaBold">Un catálogo para todos</p><p id="text-inter">Tenemos cientos de productos para que conserves tus recuerdos.</p> 
+          </div>
+          <div class="col-2 text-center left">
+            <p class="modelicaBold">Productos unícos e irrepetibles</p><p id="text-inter">Cada uno de nuestros productos esta hecho especialmente para la persona que lo recibirá.</p> 
+          </div>
+          <div class="col-2 text-center left" >
+            <p class="modelicaBold" style="font-size: 14px;">Entregamos en donde lo necesites</p><p id="text-inter">Puedes programar la entrega para el día que lo quieras y en dónde lo quieras.</p> 
+          </div>
+          <div class="col-2 text-center">
+            <p class="modelicaBold">Tu compra segura</p><p id="text-inter">Tenemos un sistema de pago que garantiza la seguridad de tu información.</p> 
+          </div>
+        </div>
+      
+
+        <div id="duo-feature" style="margin: 0 0 0 0">
+          <div class="row" style="background-color:#ffe79d;display: flex; flex-wrap: wrap; width: 100.58%; margin: 0 0 0 0">
+                <div class="offset-lg-1 col-12 col-lg-5" >
+                  <div class="row">
+                    <div id="texto1" class="col-6 px-0 text-center" style="background-image: url(media/pattern-yellow.png); padding: 50px 0 25px 0;">
+                      <p class="modelicaBold" style="font-size: 45px;">15%</p><p class="modelicaBold">de descuento</p><p style="color:white;">En todos los articulos</p> <p>de la seccion</p><p>de juguetes textiles</p>
+                    </div>
+                    <div class="col-6 px-0" style="background-image: url(media/feature-yellow.png); background-size: 100% 100%;"></div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                  <div class="row">
+                    <div id="texto1" class="col-6 px-0 text-center" style="background-image: url(media/pattern-purple.png); padding: 50px 0 25px 0;">
+                      <p class="modelicaBold" style="font-size: 45px;">15%</p><p class="modelicaBold">de descuento</p><p style="color:white;">En todos los articulos</p> <p>de la seccion</p><p>de juguetes textiles</p>
+                    </div>
+                    <div class="col-6 px-0" style="background-image: url(media/feature-purple.png)"></div>
+                  </div>
+                </div>
+              
+            
+
+          </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="min-height: 299px; justify-content: center; padding: 20px 0 0 0" class="d-flex align-content-center text-center flex-wrap ">
+      <div id="preguntas" class="align-content-center text-center flex-wrap" style=" width: 100%; justify-content: center;">
+          <div class="container-fluid justify-content-center" style="padding: 25px 0 25px 0; justify-content: center;">
+            <p style="font-size: 20px;" class="modelicaBold">¿Preguntas?</p>
+            <p style="margin-top: -10px; font-size: 14px;" class="col-4 offset-4">Nuestros asesores estan preparados para atender las dudas que puedan surgirte.</p>
+            <div class="input-group col-4 offset-4">
+              <input id="preguntas-input" type="text" class="form-control" placeholder="Contacta al centro de ayuda" aria-label="Buscar" style="border-color: #33bec2; border-radius: 20px; width: 85%; left: 20px;">
+              <div class="input-group-append" style="left: -35px;">
+                <button class="btn" style="left:-30px;" id="addon-wrapping"><i class="far fa-comment-alt fa-lg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="newsletter" class="align-content-center text-center flex-wrap" style="margin: 20px 0 20px 0; width: 100%; justify-content: center;">
+          <div class="container-fluid justify-content-center" style="padding: 25px 0 25px 0; justify-content: center;">
+            <p style="font-size: 20px;" class="modelicaBold">Inscribete a nuestro newsletter</p>
+            <p style="margin-top: -10px; font-size: 14px;" class="col-4 offset-4">Recibe descuentos y ofertas exclusivas</p>
+            <div class="input-group col-4 offset-4">
+              <input id="newsletter-input" type="text" class="form-control" placeholder="E-Mail" aria-label="Buscar" style="border-color: #33bec2; border-radius: 20px; width: 85%; left: 20px;">
+              <div class="input-group-append" style="left: -35px;">
+                <button class="btn" style="left:-30px;" id="addon-wrapping"><i class="far fa-paper-plane fa-lg"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+</html>

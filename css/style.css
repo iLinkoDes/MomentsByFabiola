@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Modelica;
+	src: url("fonts/BwModelicaSS01-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: ModelicaBold;
+	src: url("fonts/BwModelicaSS01-Bold.otf") format("opentype");
+}
+
+html, body{
+	font-family: "Modelica";
+}
+
+.modelicaBold{
+	font-family: "ModelicaBold";
+}
+
+.nav-item{
+	margin: 0 1em 0 1em;
+}
+
+.nav-link{
+	color: black;
+}
+
+#Navbar{
+	max-height: 40px;
+	background-color: #fff;
+	z-index: 2 !important;
+	width: 90%;
+	border-bottom-color: #f3753c;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;  
+}
+
+#Header{
+	z-index: 999 !important;
+	background-color: #fff;
+}
+
+.nav-link:hover{
+	color:#f3753c;
+}
+.dropdown-menu{
+	margin-right: 1000px;
+	min-width: 1000%;
+	border-color: #000000;
+}
+
+#preguntas{
+	background-color: #d1eced;
+}
+
+#preguntas-input{
+	background-color: #d1eced;
+}
+
+#newsletter{
+	background-color: #f3d5e6;
+}
+#newsletter-input{
+	background-color: #f3d5e6;
+}
+#feature-link-pink{
+	text-decoration: none;
+	color: white;
+}
+#feature-link-pink:hover{
+	color: #cecece;
+}
+#text-inter{
+	margin-top: -15px;
+	font-size: 12px;
+}
+.inter > p.modelicaBold{
+	font-size: 12px !important;
+}
+.inter > .left{
+	border-right-style: solid; 
+	border-right-color: #de7cb3; 
+	border-right-width: 1px;
+}
+#texto1 > p{
+	margin-top: -15px;
+	font-size: 25px;
+}
+
+#nav-main{
+	display: none;
+}
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media(max-width: 575px ){
+	#momentsByLogo{
+		width: 250%;
+	}
+
+}
+@media (min-width: 576px) { 
+	#momentsByLogo{
+		width: 175%;
+	}
+	#comparte-texto-toys{
+		margin-top: 50px;
+	}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	#text-pink{
+			font-size:25px;
+	}
+	#subtext-pink{
+		font-size:15px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#momentsByLogo{
+			width: 150%;
+		}
+	#nav-main{
+		display: inline-flex;
+	}
+	#comparte-texto-toys{
+		margin-top: 0;
+	}
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#momentsByLogo{
+			width: 100%;
+		}
+		#text-pink{
+			font-size:40px;
+		}
+		#subtext-pink{
+			font-size:20px;
+		}
+}
